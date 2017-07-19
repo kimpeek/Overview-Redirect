@@ -8,7 +8,7 @@
 // @include      https://www.reddit.com*
 // ==/UserScript==
 
-var user_link = new RegExp("(\/u\/|\/user\/)[A-Za-z0-9_-]+$");
+var user_link = new RegExp("(\/u\/|\/user\/)[A-Za-z0-9_-]+\/?$");
 var anchors = document.getElementsByTagName("a");
 
 for (var i = 0; i < anchors.length; i++) {
