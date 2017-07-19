@@ -3,7 +3,7 @@
 // @name:en      Overview Redirect
 // @version      0.2
 // @description  Change all username urls to point to overviews instead of profiles
-// @namespace
+// @namespace    Overview Redirect
 // @author       https://github.com/kimpeek
 // @include      https://www.reddit.com*
 // ==/UserScript==
