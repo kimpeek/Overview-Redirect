@@ -9,11 +9,12 @@
 // ==/UserScript==
 
 var user_link = new RegExp("(\/u\/|\/user\/)[A-Za-z0-9_-]+\/?$");
+var user_name = new RegExp("(\/u\/|\/user\/)[A-Za-z0-9_-]+");
 var anchors = document.getElementsByTagName("a");
 
 for (var i = 0; i < anchors.length; i++) {
     if (user_link.test(anchors[i].href)){
-        var user = anchors[i].href.match(user_link)[0];
+        var user = anchors[i].href.match(user_name)[0];
         var overview = "https://www.reddit.com" + user + "/overview";
         anchors[i].href = overview;
     }
