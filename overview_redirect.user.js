@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Overview Redirect
 // @name:en      Overview Redirect
-// @version      3
+// @version      3.1
 // @description  Change all username urls to point to overviews instead of profiles
 // @namespace    Overview Redirect
 // @author       https://github.com/kimpeek
