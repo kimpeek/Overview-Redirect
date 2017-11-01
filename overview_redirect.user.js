@@ -13,7 +13,7 @@ var username_link = new RegExp("(\/u\/|\/user\/)[A-Za-z0-9_-]+\/?$");
 // Choose the page to replace with
 //   Must be valid www.reddit.com/user/<USER>/*
 //   eg. 'overview' or 'submitted'
-var page_to_link = "submitted";
+var page_to_link = "overview";
 
 // Find all links that point to a username
 // and add 'page_to_link' to the end
